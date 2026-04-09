@@ -38,7 +38,7 @@ dependencies {
     implementation libs.activity
     implementation libs.constraintlayout
     implementation libs.fragment
-    implementation libs.meow.bottom.navigation
+    implementation project(':meowbottomnavigation')
 
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit

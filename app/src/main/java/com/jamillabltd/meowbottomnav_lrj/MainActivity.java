@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.add(new MeowBottomNavigation.Model(ID_PROFILE, R.drawable.ic_profile));
 
         // Switch fragment when a tab is shown (first load + re-select)
-        bottomNavigation.setOnShowMenuListener(model -> {
+        bottomNavigation.setOnShowListener(model -> {
             loadFragment(model.getId());
             highlightTitle(model.getId());
             return Unit.INSTANCE;
