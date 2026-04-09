@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="nav_bg">#FFFFFF</color>
+    <color name="nav_default_icon">#BDBDBD</color>
+    <color name="nav_selected_icon">#FFFFFF</color>
+    <color name="nav_circle">#6200EE</color>
+    <color name="nav_ripple">#806200EE</color>
 </resources>
