@@ -37,7 +37,7 @@
                 android:includeFontPadding="false"
                 android:minWidth="16dp"
                 android:textDirection="ltr"
-                android:textSize="8dp"
+                android:textSize="8sp"
                 tools:ignore="RtlHardcoded,SpUsage" />
 
         </FrameLayout>
